@@ -34,7 +34,7 @@ function Contact() {
                 href="tel:+1234567890"
                 className="text-blue-600 hover:underline"
               >
-                +1 (234) 567-890
+                8941976543
               </a>
             </div>
             <div>
@@ -74,7 +74,7 @@ function Contact() {
               type="email"
               id="email"
               required
-              placeholder="your.email@example.com"
+              placeholder="Your Email"
               className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 transition"
             />
           </div>
