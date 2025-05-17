@@ -1,6 +1,11 @@
 import React from "react";
 
 function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Form successfully submitted!");
+  };
+
   return (
     <section id="contact" className="bg-gray-50 py-20 px-6 md:px-20">
       <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-12">
@@ -41,7 +46,7 @@ function Contact() {
         {/*  Form */}
         <form
           className="md:w-1/2 bg-white rounded-xl shadow-lg p-10 space-y-6"
-          onSubmit={(e) => e.preventDefault()}
+          onSubmit={handleSubmit}
         >
           <div>
             <label
